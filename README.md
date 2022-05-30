@@ -9,3 +9,4 @@ Current branches:
 
 **master** - default branch
 <br> **toggle-side-menu** - branch with custom side menu + toggle
+<br> **picker-navigation-view-** branch with UIPickerView and Navigation settings.
