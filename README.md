@@ -9,3 +9,4 @@ Current branches:
 
 **master** - default branch
 <br> **alert-sheet** - branch with native alerts and sheets
+<br> **toggle-side-menu** - branch with custom side menu + toggle
