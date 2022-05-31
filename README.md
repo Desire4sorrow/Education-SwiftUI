@@ -9,4 +9,5 @@ Current branches:
 
 **master** - default branch
 <br> **toggle-side-menu** - branch with custom side menu + toggle
-<br> **picker-navigation-view-** branch with UIPickerView and Navigation settings.
+<br> **picker-navigation-view-** - branch with UIPickerView and Navigation settings.
+<br> **segment-sneakershop** - branch with custom page with sneakers.
