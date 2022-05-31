@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State var segmentIndex = 0
+    @State var segmentIndex = UserDefaults.standard.integer(forKey: "selectedIndex")
     @State var offsetX = 0
     
     var companies = ["Nike", "Adidas", "Puma"]
@@ -26,6 +26,7 @@ struct ContentView: View {
         Binding(get: { segmentIndex },
                                   set: { newValue in
             segmentIndex = newValue
+            UserDefaults.standard.set(segmentIndex, forKey: "selectedIndex")
             offsetX = -500
             moveBack()
         } )
