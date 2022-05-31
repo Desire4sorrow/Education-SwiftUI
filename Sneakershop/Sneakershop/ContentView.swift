@@ -12,8 +12,8 @@ struct ContentView: View {
     @State var segmentIndex = UserDefaults.standard.integer(forKey: "selectedIndex")
     @State var offsetX = 0
     
-    var companies = ["Nike", "Adidas", "Puma"]
-    var sneakers = ["nike", "adidas", "puma"]
+    let companies = ["Nike", "Adidas", "Puma"]
+    let sneakers = ["nike", "adidas", "puma"]
     
     var content: some View {
         ForEach(0..<companies.count) {
