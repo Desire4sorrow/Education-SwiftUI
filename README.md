@@ -11,3 +11,4 @@ Current branches:
 <br> **toggle-side-menu** - branch with custom side menu + toggle
 <br> **picker-navigation-view-** - branch with UIPickerView and Navigation settings.
 <br> **segment-sneakershop** - branch with custom page with sneakers.
+<br> **ui-activity-view** - branch with custom view for sharing in social medias.
