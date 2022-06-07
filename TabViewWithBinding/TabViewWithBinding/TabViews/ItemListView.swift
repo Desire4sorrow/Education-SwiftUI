@@ -9,7 +9,10 @@ import SwiftUI
 
 struct ItemListView: View {
     var body: some View {
-        Text("Another Tab")
+        ZStack {
+            Image("home-sky")
+                .ignoresSafeArea(edges: .top)
+        }
             .tabItem {
                 Image(systemName: "book.fill")
                 Text("Item list")
