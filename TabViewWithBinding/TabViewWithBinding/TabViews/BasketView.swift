@@ -30,7 +30,7 @@ struct BasketView: View {
                 products = Array(Set(ItemListView.products + products))
             }
         }
-        .badge(products.count)
+//        .badge(products.count)
         .tabItem {
             Image(systemName: "bag.fill")
             Text("Basket")
