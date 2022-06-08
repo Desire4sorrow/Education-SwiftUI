@@ -8,15 +8,37 @@
 import SwiftUI
 
 struct BasketView: View {
+    
+    @State private var products = [DishModel]()
+    
     var body: some View {
-        ZStack {
-            Image("home-sky")
-                .ignoresSafeArea(edges: .top)
-        }
-            .badge(2)
-            .tabItem {
-                Image(systemName: "bag.fill")
-                Text("Basket")
+        NavigationView {
+            List {
+                if ItemListView.products.isEmpty {
+                    Text("Ваша корзина пуста")
+                }
+                ForEach(products) { dish in
+                    MenuRow(dish: dish)
+                }
+                .onDelete(perform: removeRows)
             }
+            .navigationTitle("Корзина")
+            .toolbar {
+                EditButton()
+            }
+            .onAppear {
+                products = Array(Set(ItemListView.products + products))
+            }
+        }
+        .badge(products.count)
+        .tabItem {
+            Image(systemName: "bag.fill")
+            Text("Basket")
+        }
+    }
+    
+    func removeRows(at offsets: IndexSet) {
+        products.remove(atOffsets: offsets)
+        ItemListView.products = products
     }
 }

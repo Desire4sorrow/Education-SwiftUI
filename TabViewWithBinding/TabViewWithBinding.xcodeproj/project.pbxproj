@@ -14,6 +14,20 @@
 		9C323B9E284F575B00F0F7E4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C323B9D284F575B00F0F7E4 /* HomeView.swift */; };
 		9C323BA0284F585600F0F7E4 /* ItemListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C323B9F284F585600F0F7E4 /* ItemListView.swift */; };
 		9C323BA2284F587700F0F7E4 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C323BA1284F587700F0F7E4 /* BasketView.swift */; };
+		9C323BA4285084D900F0F7E4 /* productData.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C323BA3285084D900F0F7E4 /* productData.json */; };
+		9C323BA82850858000F0F7E4 /* DishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C323BA72850858000F0F7E4 /* DishModel.swift */; };
+		9C323BAB285085BB00F0F7E4 /* DishApiModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C323BAA285085BB00F0F7E4 /* DishApiModel.swift */; };
+		9C323BAD285086BC00F0F7E4 /* MenuRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C323BAC285086BC00F0F7E4 /* MenuRow.swift */; };
+		9C5B07D7285088FF00F92644 /* noodles.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5B07CE285088FF00F92644 /* noodles.png */; };
+		9C5B07D8285088FF00F92644 /* dosa.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5B07CF285088FF00F92644 /* dosa.png */; };
+		9C5B07D9285088FF00F92644 /* hendl.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5B07D0285088FF00F92644 /* hendl.png */; };
+		9C5B07DA285088FF00F92644 /* tacosDePapa.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5B07D1285088FF00F92644 /* tacosDePapa.png */; };
+		9C5B07DB285088FF00F92644 /* burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5B07D2285088FF00F92644 /* burger.png */; };
+		9C5B07DC285088FF00F92644 /* pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5B07D3285088FF00F92644 /* pizza.png */; };
+		9C5B07DD285088FF00F92644 /* sushi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5B07D4285088FF00F92644 /* sushi.png */; };
+		9C5B07DE285088FF00F92644 /* frenchFries.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5B07D5285088FF00F92644 /* frenchFries.png */; };
+		9C5B07DF285088FF00F92644 /* shawarma.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5B07D6285088FF00F92644 /* shawarma.png */; };
+		9C5B07E72850BAFC00F92644 /* UserDefaultsKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5B07E62850BAFC00F92644 /* UserDefaultsKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +39,20 @@
 		9C323B9D284F575B00F0F7E4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		9C323B9F284F585600F0F7E4 /* ItemListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListView.swift; sourceTree = "<group>"; };
 		9C323BA1284F587700F0F7E4 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
+		9C323BA3285084D900F0F7E4 /* productData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = productData.json; sourceTree = "<group>"; };
+		9C323BA72850858000F0F7E4 /* DishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishModel.swift; sourceTree = "<group>"; };
+		9C323BAA285085BB00F0F7E4 /* DishApiModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishApiModel.swift; sourceTree = "<group>"; };
+		9C323BAC285086BC00F0F7E4 /* MenuRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuRow.swift; sourceTree = "<group>"; };
+		9C5B07CE285088FF00F92644 /* noodles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = noodles.png; path = "../../../../Downloads/completeRestaurantMenuApp-master/RestaurantMenu/RestaurantMenu/Resources/noodles.png"; sourceTree = "<group>"; };
+		9C5B07CF285088FF00F92644 /* dosa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dosa.png; path = "../../../../Downloads/completeRestaurantMenuApp-master/RestaurantMenu/RestaurantMenu/Resources/dosa.png"; sourceTree = "<group>"; };
+		9C5B07D0285088FF00F92644 /* hendl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hendl.png; path = "../../../../Downloads/completeRestaurantMenuApp-master/RestaurantMenu/RestaurantMenu/Resources/hendl.png"; sourceTree = "<group>"; };
+		9C5B07D1285088FF00F92644 /* tacosDePapa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tacosDePapa.png; path = "../../../../Downloads/completeRestaurantMenuApp-master/RestaurantMenu/RestaurantMenu/Resources/tacosDePapa.png"; sourceTree = "<group>"; };
+		9C5B07D2285088FF00F92644 /* burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = burger.png; path = "../../../../Downloads/completeRestaurantMenuApp-master/RestaurantMenu/RestaurantMenu/Resources/burger.png"; sourceTree = "<group>"; };
+		9C5B07D3285088FF00F92644 /* pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pizza.png; path = "../../../../Downloads/completeRestaurantMenuApp-master/RestaurantMenu/RestaurantMenu/Resources/pizza.png"; sourceTree = "<group>"; };
+		9C5B07D4285088FF00F92644 /* sushi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sushi.png; path = "../../../../Downloads/completeRestaurantMenuApp-master/RestaurantMenu/RestaurantMenu/Resources/sushi.png"; sourceTree = "<group>"; };
+		9C5B07D5285088FF00F92644 /* frenchFries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = frenchFries.png; path = "../../../../Downloads/completeRestaurantMenuApp-master/RestaurantMenu/RestaurantMenu/Resources/frenchFries.png"; sourceTree = "<group>"; };
+		9C5B07D6285088FF00F92644 /* shawarma.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = shawarma.png; path = "../../../../Downloads/completeRestaurantMenuApp-master/RestaurantMenu/RestaurantMenu/Resources/shawarma.png"; sourceTree = "<group>"; };
+		9C5B07E62850BAFC00F92644 /* UserDefaultsKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +85,13 @@
 		9C323B8D284F543700F0F7E4 /* TabViewWithBinding */ = {
 			isa = PBXGroup;
 			children = (
-				9C323B92284F543900F0F7E4 /* Assets.xcassets */,
+				9C323BA52850852600F0F7E4 /* Resources */,
+				9C323BA9285085A700F0F7E4 /* API */,
+				9C323B8E284F543700F0F7E4 /* TabViewWithBindingApp.swift */,
 				9C323B90284F543700F0F7E4 /* MainTabView.swift */,
 				9C323B94284F543900F0F7E4 /* Preview Content */,
+				9C323BA62850855D00F0F7E4 /* Models */,
 				9C323B9C284F573600F0F7E4 /* TabViews */,
-				9C323B8E284F543700F0F7E4 /* TabViewWithBindingApp.swift */,
 			);
 			path = TabViewWithBinding;
 			sourceTree = "<group>";
@@ -82,6 +112,42 @@
 				9C323BA1284F587700F0F7E4 /* BasketView.swift */,
 			);
 			path = TabViews;
+			sourceTree = "<group>";
+		};
+		9C323BA52850852600F0F7E4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C5B07D2285088FF00F92644 /* burger.png */,
+				9C5B07CF285088FF00F92644 /* dosa.png */,
+				9C5B07D5285088FF00F92644 /* frenchFries.png */,
+				9C5B07D0285088FF00F92644 /* hendl.png */,
+				9C5B07CE285088FF00F92644 /* noodles.png */,
+				9C5B07D3285088FF00F92644 /* pizza.png */,
+				9C5B07D6285088FF00F92644 /* shawarma.png */,
+				9C5B07D4285088FF00F92644 /* sushi.png */,
+				9C5B07D1285088FF00F92644 /* tacosDePapa.png */,
+				9C323B92284F543900F0F7E4 /* Assets.xcassets */,
+				9C323BA3285084D900F0F7E4 /* productData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9C323BA62850855D00F0F7E4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9C323BA72850858000F0F7E4 /* DishModel.swift */,
+				9C323BAC285086BC00F0F7E4 /* MenuRow.swift */,
+				9C5B07E62850BAFC00F92644 /* UserDefaultsKeys.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9C323BA9285085A700F0F7E4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9C323BAA285085BB00F0F7E4 /* DishApiModel.swift */,
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +208,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C5B07DE285088FF00F92644 /* frenchFries.png in Resources */,
+				9C323BA4285084D900F0F7E4 /* productData.json in Resources */,
+				9C5B07D9285088FF00F92644 /* hendl.png in Resources */,
+				9C5B07D8285088FF00F92644 /* dosa.png in Resources */,
 				9C323B96284F543900F0F7E4 /* Preview Assets.xcassets in Resources */,
+				9C5B07DD285088FF00F92644 /* sushi.png in Resources */,
+				9C5B07DB285088FF00F92644 /* burger.png in Resources */,
+				9C5B07DF285088FF00F92644 /* shawarma.png in Resources */,
+				9C5B07DC285088FF00F92644 /* pizza.png in Resources */,
+				9C5B07DA285088FF00F92644 /* tacosDePapa.png in Resources */,
+				9C5B07D7285088FF00F92644 /* noodles.png in Resources */,
 				9C323B93284F543900F0F7E4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,8 +231,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C323BA2284F587700F0F7E4 /* BasketView.swift in Sources */,
+				9C323BAB285085BB00F0F7E4 /* DishApiModel.swift in Sources */,
+				9C323BA82850858000F0F7E4 /* DishModel.swift in Sources */,
 				9C323B9E284F575B00F0F7E4 /* HomeView.swift in Sources */,
+				9C5B07E72850BAFC00F92644 /* UserDefaultsKeys.swift in Sources */,
 				9C323B91284F543700F0F7E4 /* MainTabView.swift in Sources */,
+				9C323BAD285086BC00F0F7E4 /* MenuRow.swift in Sources */,
 				9C323B8F284F543700F0F7E4 /* TabViewWithBindingApp.swift in Sources */,
 				9C323BA0284F585600F0F7E4 /* ItemListView.swift in Sources */,
 			);
