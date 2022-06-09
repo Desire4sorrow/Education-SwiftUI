@@ -14,3 +14,4 @@ Current branches:
 <br> **ui-activity-view** - branch with custom view for sharing in social medias.
 <br> **ui-navigation-view-presentation-mode** - branch with navigation view with different presentation of models.
 <br> **tab-view-binding** - branch with food list with basket with state selection in List + footer tab view.
+<br> **text-field-view-modifier** - branch with customising text fields on registration screen.
