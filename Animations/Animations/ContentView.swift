@@ -17,6 +17,7 @@ struct ContentView: View {
                 .resizable()
                 .frame(width: 300, height: 250)
                 .padding()
+                .scaleEffect(animationAmount)
                 .overlay() {
                     RoundedRectangle(cornerRadius: 1)
                         .stroke(.red)
@@ -25,7 +26,7 @@ struct ContentView: View {
                 }
                 .animation(.easeInOut, value: animationAmount)
             Button("Tap here") {
-                
+                animationAmount += 0.1
             }
             .padding(50)
             .background(.red)
